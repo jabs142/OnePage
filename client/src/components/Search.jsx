@@ -4,11 +4,21 @@ import SearchBar from './SearchBar';
 
 function Search() {
     return (
-        <div>
+        <div className="bg-gray-700 min-h-screen ">
             <NavBar />
-            <h1> Search function here </h1>
-            <SearchBar />
-        </div>
+            <div>
+
+                <h1
+                    className="text-gray-300 pt-40 text-6xl font-serif flex justify-center"> Start your reading journey</h1>
+                <h1
+                    className="text-gray-300 py-8 text-6xl font-bold font-serif flex justify-center"> One page at a time </h1>
+
+                <SearchBar />
+
+            </div>
+
+
+        </div >
     )
 }
 
